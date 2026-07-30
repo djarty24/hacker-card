@@ -32,3 +32,29 @@ And the mockup, which I'll probably end up changing as I go.
 TLDR I mostly spent today figuring out what parts I need (since this is the first time I'm picking out custom ones for a project rather than following one of the Hack Club guides) and setting stuff up. Tomorrow my goal is to actually finish up the schematic. I'm still a bit confused on how to pick out the exact resistor values & cap values but I'll save that for tomorrow.
 
 **Total time spent: 0.75 hours**
+
+# July 30: Figured otu exact parts & bom
+
+Today, I started by figuring out the exaxct specifications for the parts I needed. The reason why I need this is because to calculate how much reseistance you need, you need to use that part's specifications. And the same goes for the capacitors.
+
+After looking through the datasheet, specifically in the energy harvesting section, it said that a range from 150 to 220 220 nF worked, so I chose 220 nF. The HC tutorial had this value chosen as well btw.
+
+![datasheet](/img/datasheet-info.png)
+
+As for the LED, after asking AI for some help in translating it (the datasheet was in Chinese), I figured out that the voltage is around 2V and and forward voltage was 1.8 V. After some basic math using Ohm's law, I found the resistance value to be around 330 ohms. But this is kind of a range so I'll switch them out during assembly based on the brightness of the leds. I then created a bill of materials CSV file with my finalized parts list.
+
+| Amount | Component | Part | Price | Links |
+| --: | ------ | ---------- | ---------- | -------------------- |
+|   1 x 3 | NFC | NXP NT3H2111 HVQFN-8 | $1.93 | [Link](https://jlcpcb.com/partdetail/NXPSemicon-NT3H2111W0FHKH/C710403) |
+|   3 x 3 | LEDs | KT-0805Y | $0.14 | [Link](https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0805Y/C2296) |
+|   3 x 3 | resistors | 0603WAF470JT5E | $0.08 | [Link](https://jlcpcb.com/partdetail/23909-0603WAF470JT5E/C23182) |
+|   1 x 3 | capacitors | **220 nF** X7R 0603 | $0.06 | [Link](https://jlcpcb.com/partdetail/21832-CL10B224KA8NNNC/C21120) |
+|   1 x 3 | PCB | PCB | will get estimate later | |
+
+Total parts cost: $2.13 (not including pcb & shipping)
+
+Note that the amounts for everything has been multiplied by 3 since I want to make three hacker cards.
+
+Now, we can head on over to kicad to build the schematic. I'm actually going rock climbing today so I'll work on this in a couple of hours.
+
+**Total time: 0.75 hours**
