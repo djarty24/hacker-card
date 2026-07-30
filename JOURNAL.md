@@ -33,7 +33,7 @@ TLDR I mostly spent today figuring out what parts I need (since this is the firs
 
 **Total time spent: 0.75 hours**
 
-# July 30: Figured otu exact parts & bom
+# July 30: Figured out exact parts & bom
 
 Today, I started by figuring out the exaxct specifications for the parts I needed. The reason why I need this is because to calculate how much reseistance you need, you need to use that part's specifications. And the same goes for the capacitors.
 
@@ -49,7 +49,7 @@ As for the LED, after asking AI for some help in translating it (the datasheet w
 |   3 x 3 | LEDs | KT-0805Y | $0.14 | [Link](https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0805Y/C2296) |
 |   3 x 3 | resistors | 0603WAF470JT5E | $0.08 | [Link](https://jlcpcb.com/partdetail/23909-0603WAF470JT5E/C23182) |
 |   1 x 3 | capacitors | **220 nF** X7R 0603 | $0.06 | [Link](https://jlcpcb.com/partdetail/21832-CL10B224KA8NNNC/C21120) |
-|   1 x 3 | PCB | PCB | will get estimate later | |
+|   1 x 3 | PCB | PCB | will get estimate later | N/A |
 
 Total parts cost: $2.13 (not including pcb & shipping)
 
@@ -57,4 +57,4 @@ Note that the amounts for everything has been multiplied by 3 since I want to ma
 
 Now, we can head on over to kicad to build the schematic. I'm actually going rock climbing today so I'll work on this in a couple of hours.
 
-**Total time: 0.75 hours**
+**Total time spent: 0.75 hours**
