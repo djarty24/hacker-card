@@ -27,7 +27,7 @@ Anyways I made a mockup of what I wanted it to look like on Canva and then also 
 
 And the mockup, which I'll probably end up changing as I go.
 
-![inspo image](/img/inspo.jpg)
+![inspo image](/img/mockup.png)
 
 TLDR I mostly spent today figuring out what parts I need (since this is the first time I'm picking out custom ones for a project rather than following one of the Hack Club guides) and setting stuff up. Tomorrow my goal is to actually finish up the schematic. I'm still a bit confused on how to pick out the exact resistor values & cap values but I'll save that for tomorrow.
 
