@@ -58,3 +58,21 @@ Note that the amounts for everything has been multiplied by 3 since I want to ma
 Now, we can head on over to kicad to build the schematic. I'm actually going rock climbing today so I'll work on this in a couple of hours.
 
 **Total time spent: 0.75 hours**
+
+# July 30: Worked on getting the symbols & footprints imported
+
+To get started I wanted to import all of the JCLPCB footprints & symbols into kicad since it isn't natively included. This lowkey took me a LONG time because I couldn't find the option to import new plugins into kicad (btw as I'm writing this I actually found it, its on the main window 😭). Apparently before you install the plugin, there's ANOTHER plugin to install that one. After reading through this ([https://github.com/Steffen-W/Import-LIB-KiCad-Plugin#use-of-the-application](https://github.com/Steffen-W/Import-LIB-KiCad-Plugin#use-of-the-application)) file, I figured out how to get it set up. Right? Wrong.
+
+Basically, there were even more issues with the library that I had to manually fix after finally getting it installed.
+
+![error](img/error.png)
+
+So eventually I gave up on this approach and switched to trying to install eveyrthing from teh command line. That ended up working a lot better since I was able to use a library called JLC2KiCadLib to individually install the symbols for the exact parts I needed in a folder called BusinessCard_Parts. This whole process took me around an hour but at least it works right!
+
+Then, I imported in all of the symbols and made my schematic. This took another hour because I had no idea how to wire anything. I realized that I need to wire all of the resistors in parallel so that they would stay bright, so I went ahead and did that too.
+
+I was struggling with adding the antenna in and after reading this article (https://shanesnover.com/2022/10/06/pcb-antenna-kicad.html), I found a new process. Basically, you can leave two unconnected wires at the end of LA and LB, and later in the PCB editor, manually draw in a spiral that connects to those open connections. This is what my schematic looks like now. Tomorrow, I'll work on the PCB design, but I think I might also ask in the forge channels if anyone can sanity check it since I'm not 100% confident it'll work.
+
+![schematic](img/schematic.png)
+
+**Total time spent: 2 hours**
