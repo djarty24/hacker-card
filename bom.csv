@@ -1,6 +1,5 @@
-Amount,Component,Part,Price,Links
-"1 x 3","NFC","NXP NT3H2111 HVQFN-8","$1.93","https://jlcpcb.com/partdetail/NXPSemicon-NT3H2111W0FHKH/C710403"
-"3 x 3","LEDs","KT-0805Y","$0.14","https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0805Y/C2296"
-"3 x 3","resistors","0603WAF470JT5E","$0.08","https://jlcpcb.com/partdetail/23909-0603WAF470JT5E/C23182"
-"1 x 3","capacitors","220 nF X7R 0603","$0.06","https://jlcpcb.com/partdetail/21832-CL10B224KA8NNNC/C21120"
-"1 x 3","PCB","PCB","will get estimate later","N/A"
+Designator,Component Value / Name,Footprint / Package,LCSC Part #,Qty (Total),Total Cost
+C1,220nF,0603,C21120,5,$0.0835
+"D1, D2, D3",KT-0805Y (Yellow LED),0805,C2296,15,$0.2280
+"R1, R2, R3",150Ω Resistor,0603,C22808,15,$0.03
+U1,NT3H2111W0FHKH (NFC Chip),XQFN-8,C710403,5,$3.2115
