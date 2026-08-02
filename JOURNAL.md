@@ -127,3 +127,15 @@ Last thing I did was try to get a price estimate for it through JLCPCB. I starte
 Hopefully today's journal feels a little bit more detailed than my older ones! It lowkey took a long time to document everything but Lapse always crashes my computer for some reason so I tried to add more screenshots of my entire process and to be a lot more descriptive with problems I occured and how I fixed them. I think at this point the PCB is ready for me to submit my design!
 
 **Total time spent: 2.75 hours**
+
+# August 1: Added a README
+
+This is pretty self explanatory, but I quickly wrote up a README.md file as it caused my design submission check to fail. Everything else looked good in the checker. I also added a picture which was required for the submission.
+
+![project image](img/header.png)
+
+![passed checks](img/checks.png)
+
+Ok now I'm actually going to submit it for design review.
+
+**Total time spent: 0.15 hours**
