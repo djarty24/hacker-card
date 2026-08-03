@@ -21,12 +21,12 @@ I mainly used this article from Hack Club as a starting point, but my project br
 #### BOM
 ### Bill of Materials (BOM) & Cost Breakdown
 
-| Designator | Component Value / Name | Footprint / Package | LCSC Part # | Qty (Total) | Total Cost |
+| Link | Component | Footprint / Package | LCSC Part # | Qty (Total) | Total Cost |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **C1** | 220nF | 0603 | C21120 | 5 | $0.0835 |
-| **D1, D2, D3** | KT-0805Y (Yellow LED) | 0805 | C2296 | 15 | $0.2280 |
-| **R1, R2, R3** | 150Ω Resistor | 0603 | C22808 | 15 | ~$0.03 |
-| **U1** | NT3H2111W0FHKH (NFC Chip) | XQFN-8 | C710403 | 5 | $3.2115 |
+| [Link](https://jlcpcb.com/partdetail/21832-CL10B224KA8NNNC/C21120) | 220nF | 0603 | C21120 | 5 | $0.0835 |
+| [Link](https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0805Y/C2296) | KT-0805Y (Yellow LED) | 0805 | C2296 | 15 | $0.2280 |
+| [Link](https://jlcpcb.com/partdetail/VikingTech-AR03FTC1500/C234295) | 150Ω Resistor | 0603 | C22808 | 15 | ~$0.03 |
+| [Link](https://jlcpcb.com/partdetail/NXPSemicon-NT3H2111W0FHKH/C710403) | NT3H2111W0FHKH (NFC Chip) | XQFN-8 | C710403 | 5 | $3.2115 |
 
 Please Note: The individual component costs listed above aren't completely accurate. Because I used JLCPCB for the full assembly (which was required for the specific surface-mount parts I chose and ended up being the cheapest option overall) the individual component prices don't matter as much as the final fabricated total.
 
