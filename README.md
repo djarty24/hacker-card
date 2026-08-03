@@ -10,7 +10,9 @@ Back of Card:
 
 ### Description
 
-I mainly used this article from Hack Club as a starting point, but my project branched out in several ways. First, I used KiCad instead of EasyEDA. I choose to add two additional LEDs, and I also manually designed the NFC antenna. I learned a lot from this project like how to pick out hardware, what energy harvesting is, reading datasheets to find the capacitor I should use, and actually doing calculations for the resistance values based on the hardware I was using and how bright I wanted the circuit to be.
+I mainly used [this article from Hack Club](https://jams.hackclub.com/jam/hacker-card) as a starting point, but my project branched out in several ways. First, I used KiCad instead of EasyEDA. I choose to add two additional LEDs, and I also manually designed the NFC antenna. I learned a lot from this project like how to pick out hardware, what energy harvesting is, reading datasheets to find the capacitor I should use, and actually doing calculations for the resistance values based on the hardware I was using and how bright I wanted the circuit to be.
+
+How it works is when you tap your phone to the card, the phone emits a small magnetic field. The antenna essentially converts this energy  into electricity, which then is harvested by the capacitor to light up the three LEDs on the board. Then, the NFC chip will also use some of that electricity to transmit a link to my website directly to the phone without needing a battery.
 
 ### Schematic
 
